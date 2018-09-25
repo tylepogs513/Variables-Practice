@@ -50,7 +50,10 @@
             // 
             // hockeyButton
             // 
+            this.hockeyButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.hockeyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.hockeyButton.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hockeyButton.ForeColor = System.Drawing.Color.Lime;
             this.hockeyButton.Location = new System.Drawing.Point(86, 36);
             this.hockeyButton.Name = "hockeyButton";
             this.hockeyButton.Size = new System.Drawing.Size(163, 47);
@@ -61,7 +64,10 @@
             // 
             // carpetButton
             // 
+            this.carpetButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.carpetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.carpetButton.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.carpetButton.ForeColor = System.Drawing.Color.Lime;
             this.carpetButton.Location = new System.Drawing.Point(86, 258);
             this.carpetButton.Name = "carpetButton";
             this.carpetButton.Size = new System.Drawing.Size(163, 47);
@@ -72,7 +78,10 @@
             // 
             // areaButton
             // 
+            this.areaButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.areaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.areaButton.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.areaButton.ForeColor = System.Drawing.Color.Lime;
             this.areaButton.Location = new System.Drawing.Point(86, 142);
             this.areaButton.Name = "areaButton";
             this.areaButton.Size = new System.Drawing.Size(163, 47);
@@ -83,7 +92,10 @@
             // 
             // billButton
             // 
+            this.billButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Blue;
+            this.billButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.billButton.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.billButton.ForeColor = System.Drawing.Color.Lime;
             this.billButton.Location = new System.Drawing.Point(86, 366);
             this.billButton.Name = "billButton";
             this.billButton.Size = new System.Drawing.Size(163, 47);
@@ -107,6 +119,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.display);
             this.Controls.Add(this.billButton);
