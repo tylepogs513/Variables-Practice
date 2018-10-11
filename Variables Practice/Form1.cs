@@ -35,17 +35,18 @@ namespace Variables_Practice
 
         private void carpetButton_Click(object sender, EventArgs e)
         {
-            double numberOne, numberTwo, numberThree, numberFour;
+            double numberOne, numberTwo, numberThree, numberFour, numberFive;
 
             numberOne = 8.5;
             numberTwo = 6;
             numberThree = numberOne * numberTwo;
             numberFour = 19.95;
+            numberFive = numberThree * numberFour;
 
             display.Text = "The area of a room with dimensions \n" + numberOne +
-                "m x " + numberTwo + "m is " + (numberOne * numberTwo) + "m^2." +
+                "m x " + numberTwo + "m is " + numberThree + "m^2." +
                 "\n\nThe cost to carpet this area at " + numberFour +
-                "\nper sqaure metre is " + (numberThree * numberFour) + ".";
+                "\nper sqaure metre is " + numberFive + ".";
         }
 
         private void billButton_Click(object sender, EventArgs e)
